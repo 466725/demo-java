@@ -31,8 +31,10 @@ public class TestBase implements SauceOnDemandSessionIdProvider, SauceOnDemandAu
 
     public String seleniumURI = "@ondemand.saucelabs.com:443";
     public String buildTag = System.getenv("BUILD_TAG");
-    public String username = System.getenv("SAUCE_USERNAME");
-    public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
+//    public String username = System.getenv("SAUCE_USERNAME");
+//    public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
+    public String username = "Weipeng";
+    public String accesskey = "a9fe7cd4-fd12-4c99-aeee-826a7e511008";
     public String app = "https://github.com/saucelabs-training/demo-java/blob/master/appium-example/resources/ios/SauceGuineaPig-sim-debug.app.zip?raw=true";
     //public String app = "../../../../../../resources/ios/SauceGuineaPig-sim-debug.app.zip";
     /**

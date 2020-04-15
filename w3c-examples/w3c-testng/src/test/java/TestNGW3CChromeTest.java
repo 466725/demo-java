@@ -32,8 +32,13 @@ public class TestNGW3CChromeTest {
      */
     @BeforeMethod
     public void setup(Method method) throws MalformedURLException {
-        String username = System.getenv("SAUCE_USERNAME");
-        String accessKey = System.getenv("SAUCE_ACCESS_KEY");
+//        String username = System.getenv("SAUCE_USERNAME");
+//        String accessKey = System.getenv("SAUCE_ACCESS_KEY");
+        
+        String username = "Weipeng";
+        String accessKey = "a9fe7cd4-fd12-4c99-aeee-826a7e511008";
+        
+        
         String methodName = method.getName();
 
         /** ChomeOptions allows us to set browser-specific behavior such as profile settings, headless capabilities, insecure tls certs,
